@@ -51,7 +51,8 @@ function draw()
 
   image(bg_img,width/2,height/2,490,690);
 
-  image(food,fruit.position.x,fruit.position.y,70,70);
+ // image(food,fruit.position.x,fruit.position.y,70,70);
+  ellipse(fruit.position.x,fruit.position.y,15,15);
   rope.show();
   Engine.update(engine);
   ground.show();
